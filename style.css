@@ -1,7 +1,7 @@
 body {
+    font-family: "Gill Sans";
     display: flex;
     flex-direction: column;
-    
 }
 
 .chunk1 {
@@ -11,14 +11,13 @@ body {
 }
 
 p, .title {
-    font-size: 20px;
+    font-size: 24px;
     color: mediumseagreen;
 }
 .header {
     display:flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: lightblue;
 }
 .fact {
     display:flex;
@@ -36,8 +35,31 @@ ul {
     gap: 12px;
 }
 button{
-    color: lightcoral;
-    background-color: lightblue;
+    color: black;
+    background-color: lightgrey;
     width: 70px;
     height: 30px;
+    border-radius: 8px;
+}
+
+.logo{
+    height:50px;
+    width: 50px;
+}
+
+.midpic {
+    height : 200px;
+    width : auto;
+    border-radius: 25% 10%;
+
+}
+
+a {
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+p {
+    font-size: 18px;
+    width: 500px;
 }
